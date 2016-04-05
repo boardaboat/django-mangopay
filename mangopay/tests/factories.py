@@ -3,8 +3,7 @@ import datetime
 from django.contrib.auth.models import User
 from django.contrib.auth.hashers import make_password
 from django.conf import settings
-
-from money import Money
+from moneyed import Money
 import factory
 
 from ..models import (MangoPayNaturalUser, MangoPayBankAccount,
